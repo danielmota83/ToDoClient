@@ -1,4 +1,5 @@
 import React from 'react'
+import { TodoProps, ITodo } from '../type'
 
 type Props = TodoProps & {
     updateTodo: (todo: ITodo) => void
