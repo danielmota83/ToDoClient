@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { ITodo } from '../type'
 
 type Props = { 
   saveTodo: (e: React.FormEvent, formData: ITodo | any) => void 
