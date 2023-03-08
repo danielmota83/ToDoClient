@@ -1,4 +1,5 @@
 import axios, { AxiosResponse } from 'axios'
+import { ApiDataType, ITodo } from './type'
 
 const baseUrl: string = 'http://localhost:4000'
 
