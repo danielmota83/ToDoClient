@@ -20,8 +20,7 @@ const AddTask: React.FC = () => {
 
 			<TextField fullWidth label="Add Task" id="fullWidth" />
 			<div className="addTask">
-				{/* <TextField id="outlined-basic" label="New task" variant="outlined" /> */}
-				<LocalizationProvider dateAdapter={AdapterDateFns}>
+					<LocalizationProvider dateAdapter={AdapterDateFns}>
 					<DateTimePicker
 						label="Date&Time picker"
 						value={value}
