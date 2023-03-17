@@ -5,7 +5,7 @@ import { User } from '../models/User';
 export const authApi = createApi({
 	reducerPath: 'authApi',
 	baseQuery: fetchBaseQuery({
-		baseUrl: 'http://localhost:3001/auth',
+		baseUrl: 'http://localhost:3000/auth',
 	}),
 	endpoints: (build) => ({
 		login: build.mutation<User, LoginRequest>({
